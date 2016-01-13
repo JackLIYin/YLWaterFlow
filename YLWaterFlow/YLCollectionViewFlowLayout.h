@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YLCollectionViewFlowLayout.h
 //  YLWaterFlow
 //
 //  Created by LeonYing on 16/1/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YLCollectionViewFlowLayout : UICollectionViewFlowLayout
 
 @end
-

@@ -15,6 +15,7 @@
 		E6E09B311C4673FF005BFFFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E09B2F1C4673FF005BFFFC /* LaunchScreen.storyboard */; };
 		E6E09B3C1C4673FF005BFFFC /* YLWaterFlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E09B3B1C4673FF005BFFFC /* YLWaterFlowTests.m */; };
 		E6E09B471C4673FF005BFFFC /* YLWaterFlowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E09B461C4673FF005BFFFC /* YLWaterFlowUITests.m */; };
+		E6E09B561C46743B005BFFFC /* YLCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E09B551C46743B005BFFFC /* YLCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E6E09B421C4673FF005BFFFC /* YLWaterFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLWaterFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E09B461C4673FF005BFFFC /* YLWaterFlowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLWaterFlowUITests.m; sourceTree = "<group>"; };
 		E6E09B481C4673FF005BFFFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6E09B541C46743B005BFFFC /* YLCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		E6E09B551C46743B005BFFFC /* YLCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				E6E09B251C4673FF005BFFFC /* AppDelegate.m */,
 				E6E09B271C4673FF005BFFFC /* ViewController.h */,
 				E6E09B281C4673FF005BFFFC /* ViewController.m */,
+				E6E09B541C46743B005BFFFC /* YLCollectionViewFlowLayout.h */,
+				E6E09B551C46743B005BFFFC /* YLCollectionViewFlowLayout.m */,
 				E6E09B2A1C4673FF005BFFFC /* Main.storyboard */,
 				E6E09B2D1C4673FF005BFFFC /* Assets.xcassets */,
 				E6E09B2F1C4673FF005BFFFC /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6E09B291C4673FF005BFFFC /* ViewController.m in Sources */,
+				E6E09B561C46743B005BFFFC /* YLCollectionViewFlowLayout.m in Sources */,
 				E6E09B261C4673FF005BFFFC /* AppDelegate.m in Sources */,
 				E6E09B231C4673FE005BFFFC /* main.m in Sources */,
 			);
